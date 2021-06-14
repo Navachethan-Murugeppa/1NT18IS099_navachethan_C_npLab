@@ -22,7 +22,8 @@ int main(){
   bind(udpSocket, (struct sockaddr *) &serverAddr, sizeof(serverAddr));
 
   addr_size = sizeof serverStorage;
-
+      printf("server is running...\n");
+      printf("",buffer);
  for(;;){
     /* Try to receive any incoming UDP datagram. Address and port of 
  *       requesting client will be stored on serverStorage variable */

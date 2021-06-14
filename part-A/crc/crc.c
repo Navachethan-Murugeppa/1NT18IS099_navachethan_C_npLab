@@ -72,7 +72,6 @@ void main()
  printf("\n There is no error found.");
  else
  printf("\n There is error found.");
-
 }
 
 

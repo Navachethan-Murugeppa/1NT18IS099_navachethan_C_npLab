@@ -70,7 +70,12 @@ int main()
     }
     else
         printf("server acccept the client...\n");
-  
     func(connfd);
     close(sockfd);
 }
+
+
+
+
+
+
